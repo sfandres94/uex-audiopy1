@@ -45,7 +45,7 @@ Create an empty environment inside the repository folder:
 conda create --prefix ./<env_name>
 conda config --append envs_dirs <path_to_parent_dir_env>
 ```
-where `<env_name>` is the name of the conda environment we have just created and `<path_to_parent_dir_env>` is the path to the parent's directory (you can use `.` if the terminal points to the target folder.
+where `<env_name>` is the name of the conda environment we have just created and `<path_to_parent_dir_env>` is the path to the repository (you can use `.` if the terminal points to the target folder).
 
 Activate the conda environment:
 ```
