@@ -71,4 +71,10 @@ Do not forget to add the conda environment to Jupyter lab's kernels:
 ```
 python3 -m ipykernel install --user --name=<env_name>
 ```
+
+The only thing left is running Jupyter lab and choosing the new kernel:
+```
+jupyter-lab
+```
+
 Now you can play on your own with your repository! :nerd_face:
