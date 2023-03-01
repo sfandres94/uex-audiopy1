@@ -35,3 +35,5 @@ Now we can run Jupyter lab and select `audiopy-conda` as the running kernel:
 ```
 jupyter-lab
 ```
+
+Now that we have everything set up, we can start playing...
