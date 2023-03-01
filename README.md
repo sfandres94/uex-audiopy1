@@ -36,4 +36,29 @@ Now we can run Jupyter lab and select `audiopy-conda` as the running kernel:
 jupyter-lab
 ```
 
-Now that we have everything set up, we can start playing...
+Now that we have everything set up, we can start playing with this repository!
+
+# Create an empty conda environment
+
+Create an empty environment inside the repository folder:
+```
+conda create --prefix ./<env_name>
+conda config --append envs_dirs <path_to_parent_dir_env>
+```
+where `<env_name>` is the name of the conda environment we have just created and `path_to_parent_dir_env` is the path to the parent's directory (you can use `.` if the terminal points to the target folder.
+
+Activate the conda environment:
+```
+conda activate <env_name>
+```
+
+And manually install all required packages using:
+```
+conda install -c conda-forge <package_name>
+```
+
+Do not forget to add the conda environment to Jupyter lab's kernels:
+```
+python3 -m ipykernel install --user --name=<env_name>
+```
+Now you can play on your own with your repository!
