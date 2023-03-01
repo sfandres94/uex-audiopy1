@@ -3,7 +3,12 @@ This repository has been created for the lab session on audio processing with Py
 
 # First steps
 
-Install Anaconda: https://docs.anaconda.com/anaconda/install/index.html
+Check if Anaconda is installed:
+```
+conda --version
+conda -V
+```
+otherwise install it according to https://docs.anaconda.com/anaconda/install/index.html
 
 Create the conda environment from the environment.yml file:
 ```
