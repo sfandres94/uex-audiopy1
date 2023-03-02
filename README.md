@@ -57,11 +57,6 @@ Activate the conda environment:
 conda activate <env_name>
 ```
 
-And manually install all required packages:
-```
-conda install -c conda-forge <package_name>
-```
-
 Check the packages installed with:
 ```
 conda list
@@ -70,6 +65,11 @@ conda list
 Do not forget to add the conda environment to Jupyter lab's kernels:
 ```
 python3 -m ipykernel install --user --name=<env_name>
+```
+
+To run the line above you have to install `ipykernel` before. Manually install all required packages:
+```
+conda install -c conda-forge <package_name>
 ```
 
 The only thing left is running Jupyter lab and choosing the new kernel:
