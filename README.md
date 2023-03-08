@@ -16,7 +16,7 @@ This repository has been created for the lab session on audio processing with Py
   * [Prerequisites](#prerequisites)
   * [Installation](#installation)
   * [Usage](#usage)
-* [Work on your own from scratch](#working-on-your-own-from-scratch) 
+* [Working on your own from scratch](#working-on-your-own-from-scratch) 
 * [License](#license)
 
 ## Getting started
