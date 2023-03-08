@@ -57,6 +57,11 @@ conda config --append envs_dirs <path_to_parent_dir_env>
 ```
 where `<env_name>` is the name of the conda environment we have just created and `<path_to_parent_dir_env>` is the path to the repository (you can use `.` if the terminal points to the target folder).
 
+Alternatively, you can create an environment in the default folder as follows:
+```
+conda create --name <env_name>
+```
+
 Check that the environment has been created correctly:
 ```
 conda env list
