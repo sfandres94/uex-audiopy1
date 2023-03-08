@@ -57,8 +57,9 @@ Now we can run Jupyter lab and select `audiopy-conda` as the running kernel:
 ```
 jupyter-lab
 ```
-
 Now that we have everything set up, we can start playing with this repository! :sunglasses:
+
+<img src="https://media.giphy.com/media/3o6MbkFs5CQqK05Jba/giphy.gif" width="300" height="225" />
 
 ## Working on your own from scratch
 
@@ -115,6 +116,8 @@ jupyter-lab
 ```
 
 Now you can play on your own with your repository! :nerd_face:
+
+<img src="https://media.giphy.com/media/YAnpMSHcurJVS/giphy.gif" width="300" height="225" />
 
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
