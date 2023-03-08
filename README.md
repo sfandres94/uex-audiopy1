@@ -1,7 +1,7 @@
 # uex-audiopy
 This repository has been created for the lab session on audio processing with Python of the Multimedia Systems subject at the University of Extremadura (UEx).
 
-# First steps
+# Getting started
 
 Check if Anaconda is installed:
 ```
@@ -26,6 +26,11 @@ Add the conda environment to Jupyter lab so that it appears as a kernel:
 python3 -m ipykernel install --user --name=audiopy-conda
 ```
 
+To run the line above you have to install `ipykernel` before. Manually install all required packages:
+```
+conda install -c conda-forge <package_name>
+```
+
 Check that the kernel has been installed correctly:
 ```
 jupyter kernelspec list
@@ -38,7 +43,7 @@ jupyter-lab
 
 Now that we have everything set up, we can start playing with this repository! :sunglasses:
 
-# Create an empty conda environment
+# Work on your own from scratch
 
 Create an empty environment inside the repository folder:
 ```
@@ -70,6 +75,11 @@ python3 -m ipykernel install --user --name=<env_name>
 To run the line above you have to install `ipykernel` before. Manually install all required packages:
 ```
 conda install -c conda-forge <package_name>
+```
+
+Check that the kernel has been installed correctly:
+```
+jupyter kernelspec list
 ```
 
 The only thing left is running Jupyter lab and choosing the new kernel:
