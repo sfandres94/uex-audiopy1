@@ -1,20 +1,42 @@
+<!-- PROJECT SHIELDS -->
+<!--
+*** I'm using markdown "reference style" links for readability.
+*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
+*** See the bottom of this document for the declaration of the reference variables
+*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
+*** https://www.markdownguide.org/basic-syntax/#reference-style-links
+-->
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
 # uex-audiopy
 This repository has been created for the lab session on audio processing with Python of the Multimedia Systems subject at the University of Extremadura (UEx).
 
-# Getting started
+## Table of contents
+* [Getting started](#getting-started)
+  * [Prerequisites](#prerequisites)
+  * [Installation](#installation)
+  * [Usage](#usage)
+* [Work on your own from scratch](#working-on-your-own-from-scratch) 
+* [License](#license)
+
+## Getting started
+
+### Prerequisites
+Anaconda distribution is recommended. You can install it following the [official installation guide](https://docs.anaconda.com/anaconda/install/linux/).
 
 Check if Anaconda is installed:
 ```
 conda --version
 conda -V
 ```
-otherwise install it according to https://docs.anaconda.com/anaconda/install/index.html
 
-Create the conda environment from the environment.yml file:
+### Installation
+The environment.yml file contains all the necessary packages to use this project inside the environment with name `audiopy-conda` provided. You can create a conda environment from the .yml file as follows:
 ```
 conda env create -f environment.yml
 ```
 
+### Usage
 Activate the conda environment:
 ```
 conda activate <env_name>
@@ -48,7 +70,7 @@ jupyter-lab
 
 Now that we have everything set up, we can start playing with this repository! :sunglasses:
 
-# Work on your own from scratch
+## Working on your own from scratch
 
 Create an empty environment inside the repository folder:
 ```
@@ -103,3 +125,11 @@ jupyter-lab
 ```
 
 Now you can play on your own with your repository! :nerd_face:
+
+## License
+This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
+
+<!-- MARKDOWN LINKS & IMAGES -->
+<!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
+[linkedin-shield]: https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white
+[linkedin-url]: https://linkedin.com/in/sfandres
