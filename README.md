@@ -36,6 +36,11 @@ Check that the kernel has been installed correctly:
 jupyter kernelspec list
 ```
 
+Install Jupyter lab using:
+```
+conda install -c conda-forge jupyterlab
+```
+
 Now we can run Jupyter lab and select `audiopy-conda` as the running kernel:
 ```
 jupyter-lab
@@ -80,6 +85,11 @@ conda install -c conda-forge <package_name>
 Check that the kernel has been installed correctly:
 ```
 jupyter kernelspec list
+```
+
+Install Jupyter lab using:
+```
+conda install -c conda-forge jupyterlab
 ```
 
 The only thing left is running Jupyter lab and choosing the new kernel:
