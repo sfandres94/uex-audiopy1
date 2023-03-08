@@ -36,21 +36,15 @@ The environment.yml file contains all the necessary packages to use this project
 conda env create -f environment.yml
 ```
 
-### Usage
 Activate the conda environment:
 ```
 conda activate <env_name>
 ```
-where `<env_name>` is the name of the conda environment we have just created. It appears in the first line of the environment.yml file, `audiopy-conda` in this particular case.
+where `<env_name>` is the name of the conda environment we have just created. It appears in the first line of the environment.yml file; `audiopy-conda` in this particular case.
 
 Add the conda environment to Jupyter lab so that it appears as a kernel:
 ```
 python3 -m ipykernel install --user --name=audiopy-conda
-```
-
-To run the line above you have to install `ipykernel` before. Manually install all required packages:
-```
-conda install -c conda-forge <package_name>
 ```
 
 Check that the kernel has been installed correctly:
@@ -58,11 +52,7 @@ Check that the kernel has been installed correctly:
 jupyter kernelspec list
 ```
 
-Install Jupyter lab using:
-```
-conda install -c conda-forge jupyterlab
-```
-
+### Usage
 Now we can run Jupyter lab and select `audiopy-conda` as the running kernel:
 ```
 jupyter-lab
