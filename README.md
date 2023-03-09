@@ -115,6 +115,11 @@ The only thing left is running Jupyter lab and choosing the new kernel:
 jupyter-lab
 ```
 
+Export an environment to be replicated (while activated):
+```
+conda env export > environment.yml
+```
+
 Now you can play on your own with your repository! :nerd_face:
 
 <img src="https://media.giphy.com/media/YAnpMSHcurJVS/giphy.gif" width="300" height="225" />
