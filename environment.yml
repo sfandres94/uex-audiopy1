@@ -1,4 +1,4 @@
-name: audiopy-conda
+name: audiopy
 channels:
   - anaconda
   - conda-forge
