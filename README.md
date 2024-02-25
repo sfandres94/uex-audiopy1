@@ -8,8 +8,8 @@
 -->
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
-# uex-audiopy
-This repository has been created for the lab session on audio processing with Python of the Multimedia Systems subject at the University of Extremadura (UEx).
+# UEx-AudioPy1
+This repository has been created for the first lab session on audio processing with Python of the Multimedia Systems subject at the University of Extremadura (UEx).
 
 ## Table of contents
 * [Getting started](#getting-started)
@@ -31,7 +31,7 @@ conda -V
 ```
 
 ### Installation
-The environment.yml file contains all the necessary packages to use this project inside the environment with name `audiopy-conda` provided. You can create a conda environment from the .yml file as follows:
+The environment.yml file contains all the necessary packages to use this project inside the environment with the name `audiopy` provided. You can create a conda environment from the .yml file as follows:
 ```
 conda env create -f environment.yml
 ```
@@ -40,11 +40,11 @@ Activate the conda environment:
 ```
 conda activate <env_name>
 ```
-where `<env_name>` is the name of the conda environment we have just created. It appears in the first line of the environment.yml file; `audiopy-conda` in this particular case.
+where `<env_name>` is the name of the conda environment we have just created. It appears in the first line of the environment.yml file; `audiopy` in this particular case.
 
 Add the conda environment to Jupyter lab so that it appears as a kernel:
 ```
-python3 -m ipykernel install --user --name=audiopy-conda
+python3 -m ipykernel install --user --name=audiopy
 ```
 
 Check that the kernel has been installed correctly:
@@ -53,7 +53,7 @@ jupyter kernelspec list
 ```
 
 ### Usage
-Now we can run Jupyter lab and select `audiopy-conda` as the running kernel:
+Now we can run Jupyter lab and select `audiopy` as the running kernel:
 ```
 jupyter-lab
 ```
@@ -110,7 +110,7 @@ Install Jupyter lab using:
 conda install -c conda-forge jupyterlab
 ```
 
-The only thing left is running Jupyter lab and choosing the new kernel:
+The only thing left is starting JupyterLab and choosing the new kernel:
 ```
 jupyter-lab
 ```
