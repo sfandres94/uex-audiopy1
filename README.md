@@ -58,6 +58,9 @@ Now we can run JupyterLab and select `audiopy` as the running kernel:
 ```
 jupyter-lab
 ```
+
+Alternatively, we can use [Visual Studio Code](https://code.visualstudio.com/).
+
 Now that we have everything set up, we can start playing with this repository! :sunglasses:
 
 <img src="https://media.giphy.com/media/3o6MbkFs5CQqK05Jba/giphy.gif" width="300" height="225" />
@@ -123,6 +126,8 @@ The only thing left is starting JupyterLab and choosing the new kernel:
 ```
 jupyter-lab
 ```
+
+Alternatively, we can use [Visual Studio Code](https://code.visualstudio.com/).
 
 Export an environment to be replicated (while activated):
 ```
