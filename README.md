@@ -31,7 +31,7 @@ conda -V
 ```
 
 ### Installation
-The environment.yml file contains all the necessary packages to use this project inside the environment with the name `audiopy` provided. You can create a conda environment from the .yml file as follows:
+The file [environment.yml](environment.yml) contains all the necessary packages to use this project inside the environment with the name `audiopy` provided. You can create a conda environment from the .yml file as follows:
 ```
 conda env create -f environment.yml
 ```
@@ -40,7 +40,7 @@ Activate the conda environment:
 ```
 conda activate <env_name>
 ```
-where `<env_name>` is the name of the conda environment we have just created. It appears in the first line of the environment.yml file; `audiopy` in this particular case.
+where `<env_name>` is the name of the conda environment we have just created. It appears in the first line of the file [environment.yml](environment.yml); `audiopy` in this particular case.
 
 Add the conda environment to Jupyter lab so that it appears as a kernel:
 ```
