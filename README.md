@@ -106,6 +106,7 @@ Install the Jupyter kernel for the conda environment by running:
 ```
 python3 -m ipykernel install --user --name=<env_name>
 ```
+where `<env_name>` is again the name of our conda environment.
 
 Check that the kernel has been installed correctly:
 ```
