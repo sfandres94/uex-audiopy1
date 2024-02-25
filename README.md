@@ -20,6 +20,7 @@ This repository has been created for the first lab session on audio processing w
 * [License](#license)
 
 ## Getting started
+The instructions below help you replicate this repository.
 
 ### Prerequisites
 Anaconda distribution is recommended. You can install it following the [official installation guide](https://docs.anaconda.com/anaconda/install/linux/).
@@ -62,18 +63,21 @@ Now that we have everything set up, we can start playing with this repository! :
 <img src="https://media.giphy.com/media/3o6MbkFs5CQqK05Jba/giphy.gif" width="300" height="225" />
 
 ## Working on your own from scratch
+The instructions below help you create everything you need to start working on your own repository.
 
-Create an empty environment inside the repository folder:
+### Creating the environment using conda
+You can create an environment in the default folder as follows:
+```
+conda create --name <env_name>
+```
+where `<env_name>` is the name of the conda environment.
+
+Alternatively, we can create an empty environment inside the repository folder:
 ```
 conda create --prefix ./<env_name>
 conda config --append envs_dirs <path_to_parent_dir_env>
 ```
-where `<env_name>` is the name of the conda environment we have just created and `<path_to_parent_dir_env>` is the path to the repository (you can use `.` if the terminal points to the target folder).
-
-Alternatively, you can create an environment in the default folder as follows:
-```
-conda create --name <env_name>
-```
+where `<path_to_parent_dir_env>` is the path to the repository (you can use `.` if the terminal points to the target folder).
 
 Check that the environment has been created correctly:
 ```
@@ -90,14 +94,17 @@ Check the packages installed with:
 conda list
 ```
 
-Do not forget to add the conda environment to JupyterLab's kernels:
-```
-python3 -m ipykernel install --user --name=<env_name>
-```
+### Adding the conda environment to JupyterLab
+Kernels are programming language-specific processes that run independently and interact with JupyterLab.
 
-To run the line above you have to install `ipykernel` before. Manually install all required packages:
+Manually install all required packages:
 ```
 conda install -c conda-forge <package_name>
+```
+
+Install the Jupyter kernel for the conda environment by running:
+```
+python3 -m ipykernel install --user --name=<env_name>
 ```
 
 Check that the kernel has been installed correctly:
@@ -105,6 +112,7 @@ Check that the kernel has been installed correctly:
 jupyter kernelspec list
 ```
 
+### Starting JupyterLab
 Install JupyterLab using:
 ```
 conda install -c conda-forge jupyterlab
