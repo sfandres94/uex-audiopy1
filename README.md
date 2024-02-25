@@ -71,14 +71,14 @@ The instructions below help you create everything you need to start working on y
 ### Creating the environment using conda
 You can create an environment in the default folder as follows:
 ```
-conda create --name <env_name>
+conda create --name=<env_name>
 ```
 where `<env_name>` is the name of the conda environment.
 
 Alternatively, we can create an empty environment inside the repository folder:
 ```
-conda create --prefix ./<env_name>
-conda config --append envs_dirs <path_to_parent_dir_env>
+conda create --prefix=./<env_name>
+conda config --append=envs_dirs <path_to_parent_dir_env>
 ```
 where `<path_to_parent_dir_env>` is the path to the repository (you can use `.` if the terminal points to the target folder).
 
