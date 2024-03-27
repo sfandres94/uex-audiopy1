@@ -9,7 +9,7 @@
 [![LinkedIn][linkedin-shield]][linkedin-url]
 
 # UEx-AudioPy1
-This repository has been created for the first lab session on audio processing with Python of the Multimedia Systems subject at the University of Extremadura (UEx).
+This repository has been created for the first lab session on audio analysis with Python of the Multimedia Systems subject at the University of Extremadura (UEx).
 
 ## Table of contents
 * [Getting started](#getting-started)
