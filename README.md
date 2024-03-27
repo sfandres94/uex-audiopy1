@@ -136,8 +136,6 @@ conda env export > environment.yml
 
 Now you can play on your own with your repository! :nerd_face:
 
-<img src="https://media.giphy.com/media/YAnpMSHcurJVS/giphy.gif" width="300" height="225" />
-
 ## License
 This project is licensed under the GNU General Public License v3.0 - see the [LICENSE](LICENSE) file for details
 
